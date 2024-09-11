@@ -78,6 +78,46 @@ export const destinationsOne = [
       "You can have a lot of fun here, too. You can go on exciting drives to see animals, walk around with a guide, or even ride horses to explore. Mkomazi National Park is a special place where you can see nature at its best, and it's unlike anywhere else in Tanzania."
     ],
   },
+
+  {
+    detailImage: "",
+    id: 7,
+    image: "mt-meru.jpg",
+    title: "Mount Meru",
+    col: 12,
+    discoverTitle: "Discover Mount Meru",
+    texts: [
+      "Embark on an exhilarating journey through the heart of Tanzania's natural wonders with the Mount Meru trek. The adventure begins in the enchanting embrace of Arusha National Park, where the majestic Mount Meru looms overhead. As trekkers delve into the initial stages, they wind through verdant montane forests, encountering a rich tapestry of wildlife and lush vegetation. The trek gradually unfolds to reveal expansive heath and moorland, showcasing panoramic views of iconic landscapes, including the silhouette of Kilimanjaro. Navigating challenging terrains, such as the famed 'Saddle', adds an element of thrill, and climbers are rewarded with stunning sunrise vistas as they approach the summit.",
+      "Culminating at Socialist Peak, 4,566 meters above sea level, the summit offers an unparalleled spectacle. From this lofty vantage point, adventurers are treated to sweeping views of Arusha National Park, the Great Rift Valley, and the distant silhouette of Mount Kilimanjaro. The triumphant sense of accomplishment, coupled with the breathtaking scenery, makes the Mount Meru trek an unforgettable odyssey. As trekkers descend, they carry with them not just the memories of conquering this lesser-explored gem, but also a profound connection to the untamed beauty and rugged allure of Mount Meru."
+    ],
+  },
+  {
+    id: 8,
+    image: "33.png",
+    title: "Ruaha",
+    detailImage: "ruaha.png",
+    col: 6,
+    discoverTitle: "Discover Ruaha",
+    texts: [
+      "In the heart of Tanzania, Ruaha National Park unveils a realm of untamed beauty. Encompassing around 20,226 square kilometers, it's a sanctuary where nature reigns supreme. As the country's largest national park, Ruaha's expansive landscapes embrace diverse ecosystems, from sprawling savannahs to rugged hills.",
+      "Here, the rhythm of life orchestrates the movements of countless species. Majestic elephants roam, lions stalk, and antelopes dart through the grasslands. The Great Ruaha River meanders gracefully, nurturing life along its banks and creating moments of intense wildlife drama.",
+      "Ruaha is more than just a park; it's a canvas of life's most profound expressions. Embark on game drives that unfold stories of survival, trek through pristine landscapes that whisper ancient tales, and experience a harmony between humanity and nature that's seamlessly interwoven. Ruaha National Park isn't merely a journey; it's an immersion into the wild pulse of Africa, where every heartbeat of nature resonates within you."
+    ],
+  },
+  {
+    id: 10,
+    image: "55.png",
+    title: "Saadani",
+    detailImage: "saadani.png",
+    col: 6,
+    discoverTitle: "Discover Saadani",
+    texts: [
+      "Nestled along Tanzania's coast, Saadani National Park is a unique sanctuary where untamed nature merges with stunning shores. Spanning approximately 1,100 square kilometers, it's a realm where the wild and the ocean harmoniously coexist.",
+      "Here, the Savannah meets the Indian Ocean, creating a haven where elephants stroll along the sands and lions roam near the water's edge. Saadani's captivating landscape invites you to experience the quintessence of Africa's biodiversity, from grazing antelopes to dazzling birdlife. What sets Saadani apart is its seamless blend of terrestrial and marine beauty. As you explore the park's trails and riverbeds, you're greeted with encounters that span ecosystems. And then, just beyond, the turquoise waters invite you for a refreshing swim or a marine safari where dolphins frolic and humpback whales dance.",
+      "Saadani National Park isn't merely a destination; it's a testament to the enchantment that happens when land and sea unite. It's where the untamed echoes in the sea breeze and where wild wonders stretch from the shore to the horizon, creating a symphony of nature's grandeur."
+    ],
+  },
+
   {
     detailImage: "",
     id: 7,
@@ -91,31 +131,7 @@ export const destinationsOne = [
       "Scaling Kilimanjaro isn't just an ascent; it's a transformative journey. The path meanders through ecosystems, challenging your spirit as you adapt to varying terrains and altitudes. With determination, guided by experienced hands, you'll ascend towards the roof of Africa, marking a personal triumph against the backdrop of unparalleled vistas. Kilimanjaro isn't just a mountain; it's a symphony of endurance, exploration, and the ecstasy of reaching new heights."
     ],
   },
-  {
-    detailImage: "",
-    id: 7,
-    image: "mt-meru.jpg",
-    title: "Mount Meru",
-    col: 6,
-    discoverTitle: "Discover Mount Meru",
-    texts: [
-      "Embark on an exhilarating journey through the heart of Tanzania's natural wonders with the Mount Meru trek. The adventure begins in the enchanting embrace of Arusha National Park, where the majestic Mount Meru looms overhead. As trekkers delve into the initial stages, they wind through verdant montane forests, encountering a rich tapestry of wildlife and lush vegetation. The trek gradually unfolds to reveal expansive heath and moorland, showcasing panoramic views of iconic landscapes, including the silhouette of Kilimanjaro. Navigating challenging terrains, such as the famed 'Saddle', adds an element of thrill, and climbers are rewarded with stunning sunrise vistas as they approach the summit.",
-      "Culminating at Socialist Peak, 4,566 meters above sea level, the summit offers an unparalleled spectacle. From this lofty vantage point, adventurers are treated to sweeping views of Arusha National Park, the Great Rift Valley, and the distant silhouette of Mount Kilimanjaro. The triumphant sense of accomplishment, coupled with the breathtaking scenery, makes the Mount Meru trek an unforgettable odyssey. As trekkers descend, they carry with them not just the memories of conquering this lesser-explored gem, but also a profound connection to the untamed beauty and rugged allure of Mount Meru."
-    ],
-  },
-  {
-    id: 8,
-    image: "33.png",
-    title: "Ruaha",
-    detailImage: "ruaha.png",
-    col: 3,
-    discoverTitle: "Discover Ruaha",
-    texts: [
-      "In the heart of Tanzania, Ruaha National Park unveils a realm of untamed beauty. Encompassing around 20,226 square kilometers, it's a sanctuary where nature reigns supreme. As the country's largest national park, Ruaha's expansive landscapes embrace diverse ecosystems, from sprawling savannahs to rugged hills.",
-      "Here, the rhythm of life orchestrates the movements of countless species. Majestic elephants roam, lions stalk, and antelopes dart through the grasslands. The Great Ruaha River meanders gracefully, nurturing life along its banks and creating moments of intense wildlife drama.",
-      "Ruaha is more than just a park; it's a canvas of life's most profound expressions. Embark on game drives that unfold stories of survival, trek through pristine landscapes that whisper ancient tales, and experience a harmony between humanity and nature that's seamlessly interwoven. Ruaha National Park isn't merely a journey; it's an immersion into the wild pulse of Africa, where every heartbeat of nature resonates within you."
-    ],
-  },
+
   {
     detailImage: "",
     id: 9,
@@ -134,25 +150,12 @@ export const destinationsOne = [
     id: 11,
     image: "pangani.webp",
     title: "Pangani",
-    col: 3,
+    col: 12,
     discoverTitle: "Discover Pangani",
     texts: [
       "Pangani Beach, nestled along the picturesque coastline of Tanzania, is a hidden gem waiting to be discovered by avid travelers seeking tranquility and natural beauty. This coastal haven is renowned for its pristine white sands, gently caressed by the crystal-clear waters of the Indian Ocean. The beach's serene ambiance is complemented by lush palm trees swaying in the breeze, creating a perfect backdrop for those seeking a peaceful escape from the hustle and bustle of everyday life.",
       "As you explore Pangani Beach, you'll encounter a rich blend of cultural heritage and historical significance. The town of Pangani, adjacent to the beach, boasts well-preserved architecture from the 19th century, reflecting its past as a thriving trading port. Visitors can embark on guided tours to explore ancient ruins, colonial buildings, and vibrant local markets, immersing themselves in the fascinating history that shaped this coastal community.",
       "For adventure enthusiasts, Pangani Beach offers an array of water activities, including snorkeling, diving, and boat excursions to nearby coral reefs teeming with marine life. Whether you seek relaxation on the sun-drenched shores, cultural exploration in the historic town, or aquatic adventures beneath the waves, Pangani Beach stands as a versatile destination that captivates the senses and invites visitors to experience the beauty of Tanzania's coastal treasures."
-    ],
-  },
-  {
-    id: 10,
-    image: "55.png",
-    title: "Saadani",
-    detailImage: "saadani.png",
-    col: 3,
-    discoverTitle: "Discover Saadani",
-    texts: [
-      "Nestled along Tanzania's coast, Saadani National Park is a unique sanctuary where untamed nature merges with stunning shores. Spanning approximately 1,100 square kilometers, it's a realm where the wild and the ocean harmoniously coexist.",
-      "Here, the Savannah meets the Indian Ocean, creating a haven where elephants stroll along the sands and lions roam near the water's edge. Saadani's captivating landscape invites you to experience the quintessence of Africa's biodiversity, from grazing antelopes to dazzling birdlife. What sets Saadani apart is its seamless blend of terrestrial and marine beauty. As you explore the park's trails and riverbeds, you're greeted with encounters that span ecosystems. And then, just beyond, the turquoise waters invite you for a refreshing swim or a marine safari where dolphins frolic and humpback whales dance.",
-      "Saadani National Park isn't merely a destination; it's a testament to the enchantment that happens when land and sea unite. It's where the untamed echoes in the sea breeze and where wild wonders stretch from the shore to the horizon, creating a symphony of nature's grandeur."
     ],
   },
 ];
