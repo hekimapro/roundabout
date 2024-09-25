@@ -22,9 +22,10 @@
   --thm-reey-font: "reeyregular";
   --thm-gray: #787780;
   --thm-gray-rgb: 120, 119, 128;
-  --thm-primary: #5b3524; /* Assuming this is the correct primary color */
+  --thm-primary: #ce9952; /* Assuming this is the correct primary color */
+  /* --thm-primary: #5b3524; Assuming this is the correct primary color */
   --thm-primary-rgb: 91, 53, 36; /* Adjusted to match #5b3524 */
-  --thm-black: #000000; /* Updated to reflect a true black tone */
+  --thm-black: #5b3524; /* Updated to reflect a true black tone */
   --thm-black-rgb: 49, 48, 65; /* Correct RGB value for #313041 */
   --thm-base: #ffffff;
   --thm-base-rgb: 255, 255, 255;
@@ -45,7 +46,7 @@
 body {
   font-family: var(--thm-font);
   color: var(--thm-gray);
-  font-size: 18px;
+  font-size: 16px;
   line-height: 34px;
   font-weight: 400;
 }
@@ -3281,7 +3282,7 @@ ul {
 .site-footer {
   position: relative;
   display: block;
-  background-color: var(--thm-black);
+  background-color: #ffffff;
 }
 
 .site-footer__top {

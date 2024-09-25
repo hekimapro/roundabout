@@ -10,7 +10,6 @@ const Home = () => {
     <Layout pageTitle="Roundabout Safari">
       <MainSlider />
       <DestinationsOne />
-
       <AboutOne />
       <WhyChoose />
     </Layout>

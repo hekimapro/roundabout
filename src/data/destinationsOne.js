@@ -1,10 +1,23 @@
 export const destinationsOne = [
   {
-    detailImage: "",
+    detailImage: "kilimanjaro.jpg",
+    id: 7,
+    image: "kilimanjaro.jpg",
+    title: "Kilimanjaro",
+    col: 12,
+    discoverTitle: "Discover Kilimanjaro Mountain",
+    texts: [
+      "Rising majestically from Tanzania's horizons, Kilimanjaro Mountain stands as an emblem of awe and aspiration. This iconic peak, Africa's highest, reaches an astounding 5,895 meters above sea level. Its snow-capped crown, visible even from afar, beckons adventurers with the promise of conquering its heights.",
+      "Beyond its towering stature, Kilimanjaro's diverse ecological zones unfold like chapters of a grand tale. From lush rainforests that shelter enchanting flora and fauna to arid desert-like expanses, the mountain's landscapes paint a vivid tapestry of nature's resilience.",
+      "Scaling Kilimanjaro isn't just an ascent; it's a transformative journey. The path meanders through ecosystems, challenging your spirit as you adapt to varying terrains and altitudes. With determination, guided by experienced hands, you'll ascend towards the roof of Africa, marking a personal triumph against the backdrop of unparalleled vistas. Kilimanjaro isn't just a mountain; it's a symphony of endurance, exploration, and the ecstasy of reaching new heights."
+    ],
+  },
+  {
+    detailImage: "serengeti.jpg",
     id: 2,
     image: "serengeti.jpg",
     title: "Serengeti",
-    col: 3,
+    col: 4,
     discoverTitle: "Discover Serengeti National Park",
     texts: [
       "Serengeti National Park stands as an awe-inspiring testament to the grandeur of nature. Encompassing an expansive 14,750 square kilometers, it ranks among the most extensive protected regions in Africa. This vast expanse is a sanctuary of diverse ecosystems, from sweeping plains to lush woodlands, creating an ever-changing backdrop for an extraordinary journey.",
@@ -13,11 +26,11 @@ export const destinationsOne = [
     ],
   },
   {
-    detailImage: "",
+    detailImage: "4.png",
     id: 4,
     image: "4.png",
     title: "Ngorongoro",
-    col: 6,
+    col: 8,
     discoverTitle: "Discover Ngorongoro National Park",
     texts: [
       "Nestled in northern Tanzania, the Ngorongoro Conservation Area Authority presents an exceptional haven where nature and humanity coexist in astonishing harmony. Encompassing a vast expanse of 8,292 square kilometers, this area's crowning jewel is the Ngorongoro Crater – a colossal volcanic caldera and the world's largest of its kind.",
@@ -38,21 +51,9 @@ export const destinationsOne = [
       "Embarking on a safari here is an immersion into a realm where life roams free and unfiltered. The sheer thrill of being in the presence of nature's most captivating spectacles is the essence of Tarangire. Whether you're a nature aficionado or an adventure enthusiast, Tarangire National Park promises a journey of wonder and awe that will resonate long after you've left its wild embrace."
     ],
   },
+
   {
-    id: 1,
-    image: '11.png',
-    title: "Arusha Park",
-    detailImage: "arusha.png",
-    col: 3,
-    discoverTitle: "Discover Arusha Park",
-    texts: [
-      "Tucked in Tanzania's northeast, Arusha National Park stands as a testament to natural wonder. In its embrace, an enchanting mosaic of beauty and biodiversity unfolds. Spanning approximately 552 square kilometers, this compact gem lies just a stone's throw from Arusha city.",
-      "Iconic Mount Meru watches over the park, a regal backdrop to picturesque landscapes. Amidst its boundaries, a kaleidoscope of habitats awaits – from the vibrant forests to the glimmering lakes, each corner whispers tales of life's abundance.",
-      "Adventure knows no bounds here. Engage in exhilarating game drives, where the wilderness comes alive with each sighting. Or tread hiking trails that lead you to the heart of nature's symphony. Arusha National Park caters to explorers and thrill-seekers alike. With the company of abundant wildlife and vistas that steal breaths, Arusha National Park holds the promise of an unforgettable expedition. Proximity to the famed Serengeti and Kilimanjaro adds another layer of allure. For all who dare to venture, this haven offers an experience that etches its magic into your heart forever."
-    ],
-  },
-  {
-    detailImage: "",
+    detailImage: "5.png",
     id: 5,
     image: "5.png",
     title: "Manyara",
@@ -69,7 +70,7 @@ export const destinationsOne = [
     id: 6,
     image: "33.png",
     title: "Mkomazi",
-    detailImage: "mkomazi.png",
+    detailImage: "33.png",
     col: 3,
     discoverTitle: "Discover Mkomazi National Park",
     texts: [
@@ -79,63 +80,11 @@ export const destinationsOne = [
     ],
   },
 
-  {
-    detailImage: "",
-    id: 7,
-    image: "mt-meru.jpg",
-    title: "Mount Meru",
-    col: 12,
-    discoverTitle: "Discover Mount Meru",
-    texts: [
-      "Embark on an exhilarating journey through the heart of Tanzania's natural wonders with the Mount Meru trek. The adventure begins in the enchanting embrace of Arusha National Park, where the majestic Mount Meru looms overhead. As trekkers delve into the initial stages, they wind through verdant montane forests, encountering a rich tapestry of wildlife and lush vegetation. The trek gradually unfolds to reveal expansive heath and moorland, showcasing panoramic views of iconic landscapes, including the silhouette of Kilimanjaro. Navigating challenging terrains, such as the famed 'Saddle', adds an element of thrill, and climbers are rewarded with stunning sunrise vistas as they approach the summit.",
-      "Culminating at Socialist Peak, 4,566 meters above sea level, the summit offers an unparalleled spectacle. From this lofty vantage point, adventurers are treated to sweeping views of Arusha National Park, the Great Rift Valley, and the distant silhouette of Mount Kilimanjaro. The triumphant sense of accomplishment, coupled with the breathtaking scenery, makes the Mount Meru trek an unforgettable odyssey. As trekkers descend, they carry with them not just the memories of conquering this lesser-explored gem, but also a profound connection to the untamed beauty and rugged allure of Mount Meru."
-    ],
-  },
-  {
-    id: 8,
-    image: "33.png",
-    title: "Ruaha",
-    detailImage: "ruaha.png",
-    col: 6,
-    discoverTitle: "Discover Ruaha",
-    texts: [
-      "In the heart of Tanzania, Ruaha National Park unveils a realm of untamed beauty. Encompassing around 20,226 square kilometers, it's a sanctuary where nature reigns supreme. As the country's largest national park, Ruaha's expansive landscapes embrace diverse ecosystems, from sprawling savannahs to rugged hills.",
-      "Here, the rhythm of life orchestrates the movements of countless species. Majestic elephants roam, lions stalk, and antelopes dart through the grasslands. The Great Ruaha River meanders gracefully, nurturing life along its banks and creating moments of intense wildlife drama.",
-      "Ruaha is more than just a park; it's a canvas of life's most profound expressions. Embark on game drives that unfold stories of survival, trek through pristine landscapes that whisper ancient tales, and experience a harmony between humanity and nature that's seamlessly interwoven. Ruaha National Park isn't merely a journey; it's an immersion into the wild pulse of Africa, where every heartbeat of nature resonates within you."
-    ],
-  },
-  {
-    id: 10,
-    image: "55.png",
-    title: "Saadani",
-    detailImage: "saadani.png",
-    col: 6,
-    discoverTitle: "Discover Saadani",
-    texts: [
-      "Nestled along Tanzania's coast, Saadani National Park is a unique sanctuary where untamed nature merges with stunning shores. Spanning approximately 1,100 square kilometers, it's a realm where the wild and the ocean harmoniously coexist.",
-      "Here, the Savannah meets the Indian Ocean, creating a haven where elephants stroll along the sands and lions roam near the water's edge. Saadani's captivating landscape invites you to experience the quintessence of Africa's biodiversity, from grazing antelopes to dazzling birdlife. What sets Saadani apart is its seamless blend of terrestrial and marine beauty. As you explore the park's trails and riverbeds, you're greeted with encounters that span ecosystems. And then, just beyond, the turquoise waters invite you for a refreshing swim or a marine safari where dolphins frolic and humpback whales dance.",
-      "Saadani National Park isn't merely a destination; it's a testament to the enchantment that happens when land and sea unite. It's where the untamed echoes in the sea breeze and where wild wonders stretch from the shore to the horizon, creating a symphony of nature's grandeur."
-    ],
-  },
 
   {
-    detailImage: "",
-    id: 7,
-    image: "3.png",
-    title: "Kilimanjaro",
-    col: 6,
-    discoverTitle: "Discover Kilimanjaro Mountain",
-    texts: [
-      "Rising majestically from Tanzania's horizons, Kilimanjaro Mountain stands as an emblem of awe and aspiration. This iconic peak, Africa's highest, reaches an astounding 5,895 meters above sea level. Its snow-capped crown, visible even from afar, beckons adventurers with the promise of conquering its heights.",
-      "Beyond its towering stature, Kilimanjaro's diverse ecological zones unfold like chapters of a grand tale. From lush rainforests that shelter enchanting flora and fauna to arid desert-like expanses, the mountain's landscapes paint a vivid tapestry of nature's resilience.",
-      "Scaling Kilimanjaro isn't just an ascent; it's a transformative journey. The path meanders through ecosystems, challenging your spirit as you adapt to varying terrains and altitudes. With determination, guided by experienced hands, you'll ascend towards the roof of Africa, marking a personal triumph against the backdrop of unparalleled vistas. Kilimanjaro isn't just a mountain; it's a symphony of endurance, exploration, and the ecstasy of reaching new heights."
-    ],
-  },
-
-  {
-    detailImage: "",
+    detailImage: "zanzibar.jpeg",
     id: 9,
-    image: "7.png",
+    image: "zanzibar.jpeg",
     title: "Zanzibar",
     col: 6,
     discoverTitle: "Discover Zanzibar",
@@ -146,18 +95,44 @@ export const destinationsOne = [
     ],
   },
   {
-    detailImage: "pangani.webp",
-    id: 11,
-    image: "pangani.webp",
-    title: "Pangani",
-    col: 12,
-    discoverTitle: "Discover Pangani",
+    id: 10,
+    image: "mafia.jpeg",
+    title: "Mafia",
+    detailImage: "mafia.jpeg",
+    col: 6,
+    discoverTitle: "Discover Mafia",
     texts: [
-      "Pangani Beach, nestled along the picturesque coastline of Tanzania, is a hidden gem waiting to be discovered by avid travelers seeking tranquility and natural beauty. This coastal haven is renowned for its pristine white sands, gently caressed by the crystal-clear waters of the Indian Ocean. The beach's serene ambiance is complemented by lush palm trees swaying in the breeze, creating a perfect backdrop for those seeking a peaceful escape from the hustle and bustle of everyday life.",
-      "As you explore Pangani Beach, you'll encounter a rich blend of cultural heritage and historical significance. The town of Pangani, adjacent to the beach, boasts well-preserved architecture from the 19th century, reflecting its past as a thriving trading port. Visitors can embark on guided tours to explore ancient ruins, colonial buildings, and vibrant local markets, immersing themselves in the fascinating history that shaped this coastal community.",
-      "For adventure enthusiasts, Pangani Beach offers an array of water activities, including snorkeling, diving, and boat excursions to nearby coral reefs teeming with marine life. Whether you seek relaxation on the sun-drenched shores, cultural exploration in the historic town, or aquatic adventures beneath the waves, Pangani Beach stands as a versatile destination that captivates the senses and invites visitors to experience the beauty of Tanzania's coastal treasures."
+      "Mafia Island, located off the coast of Tanzania in the warm waters of the Indian Ocean, is a hidden gem teeming with natural beauty and rich history. As part of the Mafia Archipelago, this serene island spans around 435 square kilometers and is renowned for its vibrant marine life, unspoiled coral reefs, and tranquil beaches. \n Mafia Island is a haven for divers and snorkelers, with its clear waters home to an array of marine species, including whale sharks, sea turtles, and colorful coral gardens. The island's marine park, one of the largest protected areas in the Indian Ocean, offers unparalleled opportunities to explore underwater ecosystems, where every dive feels like a journey into a vibrant underwater world. \n Beyond the ocean, Mafia Island's charm extends to its peaceful villages, swaying palm trees, and the rhythm of Swahili culture. The island boasts a rich cultural history, with ruins dating back to the 11th century, serving as a testament to its historical significance as a bustling trade hub in East Africa. \nWhether you’re exploring its ancient ruins, embarking on a marine adventure, or simply soaking up the sun on its pristine beaches, Mafia Island offers a rare glimpse into a world where time slows down, and nature thrives undisturbed. It's a place where the ocean's calm waves meet the island's tranquil shores, creating a peaceful retreat that feels worlds away from the bustle of everyday life."
     ],
   },
+
+  {
+    id: 8,
+    image: "ruaha.jpg",
+    title: "Ruaha",
+    detailImage: "ruaha.jpg",
+    col: 6,
+    discoverTitle: "Discover Ruaha",
+    texts: [
+      "In the heart of Tanzania, Ruaha National Park unveils a realm of untamed beauty. Encompassing around 20,226 square kilometers, it's a sanctuary where nature reigns supreme. As the country's largest national park, Ruaha's expansive landscapes embrace diverse ecosystems, from sprawling savannahs to rugged hills.",
+      "Here, the rhythm of life orchestrates the movements of countless species. Majestic elephants roam, lions stalk, and antelopes dart through the grasslands. The Great Ruaha River meanders gracefully, nurturing life along its banks and creating moments of intense wildlife drama.",
+      "Ruaha is more than just a park; it's a canvas of life's most profound expressions. Embark on game drives that unfold stories of survival, trek through pristine landscapes that whisper ancient tales, and experience a harmony between humanity and nature that's seamlessly interwoven. Ruaha National Park isn't merely a journey; it's an immersion into the wild pulse of Africa, where every heartbeat of nature resonates within you."
+    ],
+  },
+
+  {
+    detailImage: "mt-meru.jpg",
+    id: 7,
+    image: "mt-meru.jpg",
+    title: "Mount Meru",
+    col: 6,
+    discoverTitle: "Discover Mount Meru",
+    texts: [
+      "Embark on an exhilarating journey through the heart of Tanzania's natural wonders with the Mount Meru trek. The adventure begins in the enchanting embrace of Arusha National Park, where the majestic Mount Meru looms overhead. As trekkers delve into the initial stages, they wind through verdant montane forests, encountering a rich tapestry of wildlife and lush vegetation. The trek gradually unfolds to reveal expansive heath and moorland, showcasing panoramic views of iconic landscapes, including the silhouette of Kilimanjaro. Navigating challenging terrains, such as the famed 'Saddle', adds an element of thrill, and climbers are rewarded with stunning sunrise vistas as they approach the summit.",
+      "Culminating at Socialist Peak, 4,566 meters above sea level, the summit offers an unparalleled spectacle. From this lofty vantage point, adventurers are treated to sweeping views of Arusha National Park, the Great Rift Valley, and the distant silhouette of Mount Kilimanjaro. The triumphant sense of accomplishment, coupled with the breathtaking scenery, makes the Mount Meru trek an unforgettable odyssey. As trekkers descend, they carry with them not just the memories of conquering this lesser-explored gem, but also a profound connection to the untamed beauty and rugged allure of Mount Meru."
+    ],
+  },
+
 ];
 
 export default destinationsOne;
